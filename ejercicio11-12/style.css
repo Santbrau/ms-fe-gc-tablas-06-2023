@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 25%;
+    border: 2px blue;
+    box-shadow: 2px 2px 0 2px rgba(27, 17, 17, 0.822);
+}
+th, td {
+    padding: 2px;
+    border: 2px solid rgb(112, 191, 236);
+}
+th {
+    text-align: center;
+    color: rgb(149, 231, 193);
+}
+.normal {background-color: rgb(66, 122, 94);}
+.claro {background-color: rgb(184, 253, 190);}
+.oscuro {background-color: rgb(2, 37, 20);}
+.cuatro {text-align: center;}
+.tres {text-align: center;}

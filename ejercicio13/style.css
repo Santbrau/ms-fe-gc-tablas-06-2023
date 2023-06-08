@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-size: 15px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px rgb(107, 107, 126);
+    box-shadow: 2px 2px 0 2px rgba(27, 17, 17, 0.822);
+}
+th, td {
+    padding: 2px;
+    border: 2px solid rgb(153, 158, 161);
+}
+th {
+    text-align: center;
+}
+
+.verde {background-color: rgb(142, 255, 142);}
+.rojo {color: rgb(220, 20, 20);}
+.azul {background-color: rgb(59, 226, 255); text-align: left;}
+.rosa {background-color: rgb(252, 113, 205); text-align:right; vertical-align: bottom;}

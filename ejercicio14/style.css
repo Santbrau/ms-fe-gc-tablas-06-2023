@@ -1,0 +1,33 @@
+body{
+    background-image:url("pingus.jpeg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 73%;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 40%;
+    border: 2px rgb(107, 107, 126);
+    box-shadow: 2px 2px 0 2px rgba(27, 17, 17, 0.822);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+th, td {
+    padding: 0;
+    border: 2px solid rgb(255, 246, 115);
+    text-align: center;
+    box-shadow: -2px -2px 1px rgba(0, 0, 0, 0.5);
+}
+th {
+    background-color: rgb(255, 255, 255);
+}
+td {
+    background-color: rgb(255, 246, 115);
+}
