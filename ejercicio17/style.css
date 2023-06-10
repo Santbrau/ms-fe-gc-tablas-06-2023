@@ -1,0 +1,98 @@
+body {
+    background-image: url(../ejercicio17/imagenes/fondoflores.jpg);
+    margin-left: 5%;
+}
+
+.cuadrado {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+.cuadrado2{
+    border: 2px solid black;
+    margin-left: 13%;
+    margin-bottom: 100%;
+    width: 180px;
+    height: 180px;
+    background-image: url(../ejercicio17/imagenes/mantel.jpg);
+}
+
+p {
+    text-align: center; 
+    margin-bottom: 1px;
+}
+
+#mantel-a {
+    background-image: url(../ejercicio17/imagenes/mantel.jpg);
+}
+
+#mantel-b {
+    background-clip: content-box;
+}
+
+#mantel-c {
+    background-image: url(../ejercicio17/imagenes/mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#mantel-d {
+    background-color: rgb(226, 226, 226);
+    background-image: url(../ejercicio17/imagenes/mantel.jpg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+    background-size: 80% 80%;
+}
+
+#pelotazon-e {
+    background-image: url(../ejercicio17/imagenes/pelotazon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pelotazon-f {
+    background-color: rgb(226, 226, 226);
+    background-image: url(../ejercicio17/imagenes/pelotazon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+    background-size: 80% 80%;
+}
+
+#pelotazon-g {
+    background-color: rgb(226, 226, 226);
+    background-image: url(../ejercicio17/imagenes/pelotazonlargo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#pelotazon-h {
+    background-color: rgb(226, 226, 226);
+    background-image: url(../ejercicio17/imagenes/pelotazonestrecho.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#degradado-i {
+    background: linear-gradient(to right, rgb(209, 236, 135) 0%, rgb(77, 122, 40) 100% );
+}
+
+#degradado-j {
+    background: linear-gradient(to bottom, rgb(201, 137, 105) 0%, rgb(114, 57, 19) 80%, 
+    rgb(92, 46, 15) 50%, rgb(201, 137, 105) 100%) 
+}
+
+#degradado-k {
+    background: linear-gradient(to bottom, rgb(192, 236, 203) 0%, rgb(40, 122, 60) 100% );
+}
+
+#degradado-l {
+    background: linear-gradient(to bottom, rgba(192, 236, 203, 0) 0%, rgb(40, 122, 60) 100% );
+}

@@ -6,24 +6,24 @@ body{
     justify-content: center;
     align-items: center;
 }
-.cuadro {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-}
+
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 1%;
     width: 40%;
-    border: 2px rgb(107, 107, 126);
-    box-shadow: 2px 2px 0 2px rgba(27, 17, 17, 0.822);
     position: absolute;
     top: 50%;
     left: 30%;
+    border: 2px solid rgb(107, 107, 126);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 246, 115);
 }
 th, td {
-    padding: 0;
-    border: 2px solid rgb(255, 246, 115);
     text-align: center;
-    box-shadow: -2px -2px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(143, 138, 138, 0.568);
+    border-top: 2px solid rgba(0, 0, 0, 0.726);
+    border-left: 2px solid rgba(0, 0, 0, 0.699);
 }
 th {
     background-color: rgb(255, 255, 255);

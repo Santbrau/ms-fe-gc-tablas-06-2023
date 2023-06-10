@@ -1,0 +1,28 @@
+body {
+    margin-left: 5%;
+}
+
+.pequeño {
+    width: 230px;
+    height: 150px;
+    border: 2px solid rgb(4, 0, 255);
+}
+
+.grande {
+    width: 550px;
+    height: 450px;
+    border: 4px solid rgb(255, 0, 0);
+    position: relative;
+    margin-left: 3%;
+    
+}
+
+.grande, .pequeño {
+    background-color: rgb(133, 210, 255);
+    margin: 20px;
+    background-image: url(../ejercicio18/imagenes/nubes.png), url(../ejercicio18/imagenes/mario.png), 
+    url(../ejercicio18/imagenes/ladrillo.png);
+    background-position: left top, left bottom, left bottom;
+    background-repeat: repeat-x, no-repeat, repeat-x;
+}
+
